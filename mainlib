@@ -43,7 +43,7 @@ function Library:Window(title)
 	TabHolder.Active = true
 	TabHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TabHolder.BackgroundTransparency = 1.000
-	TabHolder.Size = UDim2.new(0, 112, 0, 203)
+	TabHolder.Size = UDim2.new(0, 112, 0, 227)
 	TabHolder.ScrollBarThickness = 5
 
 	UIListLayout.Parent = TabHolder
