@@ -44,7 +44,7 @@ function Library:Window(title)
 	TabHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TabHolder.BackgroundTransparency = 1.000
 	TabHolder.Size = UDim2.new(0, 112, 0, 203)
-	TabHolder.ScrollBarThickness = 0
+	TabHolder.ScrollBarThickness = 5
 
 	UIListLayout.Parent = TabHolder
 	UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -190,7 +190,7 @@ function Library:Window(title)
 		Container.BackgroundTransparency = 1.000
 		Container.Size = UDim2.new(0, 267, 0, 227)
 		Container.CanvasSize = UDim2.new(0, 0, 20, 0)
-		Container.ScrollBarThickness = 0
+		Container.ScrollBarThickness = 5
 
 		UIListLayout_2.Parent = Container
 		UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
