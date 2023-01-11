@@ -189,7 +189,7 @@ function Library:Window(title)
 		Container.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		Container.BackgroundTransparency = 1.000
 		Container.Size = UDim2.new(0, 267, 0, 227)
-		Container.CanvasSize = UDim2.new(0, 0, 6, 0)
+		Container.CanvasSize = UDim2.new(0, 0, 20, 0)
 		Container.ScrollBarThickness = 0
 
 		UIListLayout_2.Parent = Container
